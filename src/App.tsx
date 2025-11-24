@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { BackgroundGrid } from "./components/layout/BackgroundGrid";
+import { StarGrid } from "./components/layout/StarGrid";
 import { Spotlight } from "./components/layout/Spotlight";
 import { MobileGlow } from "./components/layout/MobileGlow";
 import { Navigation } from "./components/layout/Navigation";
@@ -18,7 +18,7 @@ function App() {
 
     return (
         <div className="relative min-h-screen w-full overflow-hidden bg-neutral-950 font-sans text-neutral-200 selection:bg-[var(--arcady-green)/30] selection:text-(--arcady-green)">
-            <BackgroundGrid />
+            <StarGrid />
             <Spotlight enabled={lightsOn} />
             <MobileGlow />
             <Navigation lightsOn={lightsOn} />

@@ -1,4 +1,7 @@
-/* Custom font for display title */
-.font-display {
+h1 {
     font-family: "Momo Trust Display", sans-serif;
+}
+
+p {
+    font-family: "Momo Trust Text", sans-serif;
 }

@@ -15,7 +15,7 @@ export const Hero = ({ lightsOn }: { lightsOn: boolean }) => (
                 ease: "easeInOut",
                 times: [0, 0.1, 0.3, 0.4, 0.5, 1],
             }}
-            className="font-display mb-6 text-4xl font-extrabold tracking-tight text-neutral-100 md:text-7xl"
+            className="mb-6 text-4xl font-extrabold tracking-tight text-neutral-100 md:text-7xl"
         >
             Kees Wijenberg
         </motion.h1>
@@ -25,12 +25,10 @@ export const Hero = ({ lightsOn }: { lightsOn: boolean }) => (
             transition={{ delay: 2.0, duration: 1 }}
             className="flex flex-col items-center gap-2"
         >
-            <p className="text-lg font-light text-neutral-400 md:text-2xl">
+            <p className="font-sans text-lg font-medium text-neutral-200 md:text-2xl">
                 Full Stack Developer
-                <span className="mx-2">
-                    <strong>@</strong>
-                </span>
-                <a href="https://arcady.nl" className="text-(--arcady-green)">
+                <span className="mx-2 text-xl font-medium">@</span>
+                <a href="https://arcady.nl" className="font-medium text-(--arcady-green)">
                     Arcady
                 </a>
             </p>

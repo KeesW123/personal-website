@@ -22,10 +22,10 @@ export const Navigation = ({ lightsOn }: NavigationProps) => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: lightsOn ? 1 : 0 }}
                 transition={{ duration: 1 }}
-                className="cursor-pointer text-xl font-bold tracking-tighter"
+                className="cursor-pointer text-3xl font-bold tracking-tighter"
             >
                 KW
-                <span className="text-(--arcady-green) drop-shadow-sm">.</span>
+                <span className="text-3xl text-(--arcady-green) drop-shadow-sm">.</span>
             </motion.div>
             <div className="hidden items-center gap-10 md:flex">
                 {navItems.map((item, i) => (
